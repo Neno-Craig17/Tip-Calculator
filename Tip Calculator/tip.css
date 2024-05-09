@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('giphy.gif');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #c049b649;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #984caf;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(80%);
+}
+#total-tip {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
